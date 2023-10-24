@@ -1,7 +1,7 @@
 import numpy as np
 
-countRows = np.random.randint(5)
-countColumns = np.random.randint(5)
+countRows = np.random.randint(10)
+countColumns = np.random.randint(10)
 c = np.random.randint(20, size=(countRows, countColumns))
 d = np.random.randint(20, size=(countRows, countColumns))
 print("c: " + str(c))

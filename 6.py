@@ -1,4 +1,4 @@
 import numpy as np
 
-arr = np.zeros((4, 4))
+arr = np.empty((4, 4))
 print("Array: " + str(arr))
